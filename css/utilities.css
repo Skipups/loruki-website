@@ -50,12 +50,23 @@
 .bg-secodary a,
 .btn-secodary a,
 .bg-dark a,
-.btn-dark a,
-.bg-light a,
-.btn-light {
+.btn-dark a {
   color: #fff;
 }
 
+/* Text Colors */
+.text-primary {
+  color: var(--primary-color);
+}
+.text-secodary {
+  color: var(--secodary-color);
+}
+.text-dark {
+  color: var(--dark-color);
+}
+.text-light {
+  color: var(--light-color);
+}
 /* Text Sizes */
 .lead {
   font-size: 20px;
@@ -74,6 +85,24 @@
 }
 .text-center {
   text-align: center;
+}
+
+/*Alert*/
+.alert {
+  background-color: var(--light-color);
+  padding: 10px 20px;
+  font-weight: bold;
+  margin: 15px 0;
+}
+.alert i {
+  margin-right: 10px;
+}
+.alert-success {
+  background-color: var(--success-color);
+}
+.alert-error {
+  background-color: var(--error-color);
+  color: #fff;
 }
 .flex {
   display: flex;
